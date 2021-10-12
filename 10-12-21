@@ -1,0 +1,41 @@
+import sys
+edad = 19
+sys.getsizeof(edad)
+edad = edad + 1
+print(edad)
+
+edad = edad + 1
+print(edad)
+
+estatura = 1.56
+print("Tu estatura es", estatura)
+print(sys.getsizeof(estatura))
+
+estatura = estatura + 0.1
+print(estatura)
+print(round(estatura,2))
+
+edad = 18
+
+edad += 1
+print(edad)
+
+# Edad = edad - 1
+edad -= 1
+
+print(edad)
+
+edad /= 2 #edad entre 2
+
+edad = 21 //2 # con número entero
+numero = 0
+numero *= 3
+print (numero)
+
+print(numero >= 10)
+print(numero <= 10)
+print(numero == 10)
+print(numero > 10)
+print(numero < 10)
+
+print("numero es de tipo: ", type(numero))
