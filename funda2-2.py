@@ -84,6 +84,6 @@ cliente = { "id" : "CT2121",
             }
             
 }
-
+cliente["productos"]["ahorros"]["ahorro"] -= 1500
 print(cliente["productos"]["ahorros"]["ahorro"])
-print(cliente["direccion"]["estado"]["nombre_completo"].upper())
+# print(cliente["direccion"]["estado"]["nombre_completo"].upper())
