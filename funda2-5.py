@@ -67,7 +67,7 @@ EDAD = int(input("Introduce la edad: "))
 DIAS = int(input("Introduce el número de días: "))
 COSTO = 0.0
 
-if TIPOENF == 1:
+if TIPOENF == 1: 
     COSTO = DIAS * 25.0
 elif TIPOENF == 2:
     COSTO = DIAS * 16.0

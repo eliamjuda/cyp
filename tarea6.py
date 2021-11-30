@@ -227,3 +227,82 @@
 # print("Costo total de la llamada: ", COST)
 
 # ---------------------------------------------------------------
+# ////////////////////////////////////////////////////////////////
+# ////////////////////////////////////////////////////////////////
+# -------------------- 2.12 --------------------------------------
+
+# SUE = float(print("Escribe tu sueldo: "))
+# CATE = int(print("Escribe tu categoría: "))
+# HE = int(print("Escribe tus horas extras trabajadas: "))
+# NSUE = 0;
+# PHE = 0;
+
+# if  CATE == 1:
+#     PHE = 30
+# elif CATE == 2:
+#     PHE = 38
+# elif CATE == 3:
+#     PHE = 50
+# elif CATE == 4:
+#     PHE = 70
+# else:
+#     PHE = 0
+
+# if HE > 30:
+#     NSUE = SUE + 30*PHE
+# else:
+#     NSUE = SUE + HE*PHE
+
+# print("NSUE")
+
+# ////////////////////////////////////////////////////////////////
+# ////////////////////////////////////////////////////////////////
+# -------------------- 2.13--------------------------------------
+
+# MAT = int(print("Escribe tu matrícula: "))
+# CARR = print("Escribe tu carrera: ")
+# SEM = int(print("Escribe el número de tu semestre: "))
+# PROM = float(print("Escribe tu proemdio: "))
+
+# if CARR == "Economía":
+#     if SEM >= 6 and PROM >= 8.8:
+#         print(f"{MAT}, {CARR}, ACEPTADO")
+#     else:
+#         print("FIN DEL PROGRAMA")
+
+# elif CARR == "Contabilidad" or CARR == "Administración":
+#     if SEM > 5 and PROM > 8.5:
+#         print(f"{MAT}, {CARR}, ACEPTADO")
+#     else:
+#         print("FIN DEL PROGRAMA")
+
+# elif CARR == "Computación":
+#     if SEM > 6 and PROM > 8.5:
+#         print(f"{MAT}, {CARR}, ACEPTADO")
+#     else:
+#         print("FIN DEL PROGRAMA")
+
+# ////////////////////////////////////////////////////////////////
+# ////////////////////////////////////////////////////////////////
+# -------------------- 2.14--------------------------------------
+
+TIPOENF = int(print("Tipo de enfermedad: "))
+EDAD = int(print("Edad del pasiente: "))
+DIAS = int(print("Días que estuvo internado: "))
+
+if TIPOENF == 1:
+    COSTOT = DIAS*25
+elif TIPOENF == 2:
+    COSTOT = DIAS*16
+elif TIPOENF == 3:
+    COSTOT = DIAS*20
+elif TIPOENF == 4:
+    COSTOT = DIAS*32
+
+if EDAD >= 14 and EDAD <= 22:
+    COSTOT = COSTOT*1.10
+
+print(f"Costo total: {COSTOT}")    
+
+
+

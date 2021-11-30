@@ -58,8 +58,11 @@
 
 
 import random 
-N = round(random.uniform(5,11),2)
+N = [round(random.uniform(5,11),2)]
+print(N)
+
 valores = [N for x in range(20)]
+print(valores)
 
 for i in range(len(valores)):
     print(i)
