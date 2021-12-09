@@ -80,9 +80,11 @@ from typing import DefaultDict
 
 # Se define en un archivo de biblioteca.
 
-import mi_modulo
+# import mi_modulo
 
-res = mi_modulo.sumar(7,5)
-print(res)
+# res = mi_modulo.sumar(7,5)
+# print(res)
 
 
+archivo = open("salida.txt", "wt")
+archivo.write("Hola mion")
